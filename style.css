@@ -1,9 +1,36 @@
 /* Custom Help Scout StyleSheet - built on the one shared by by Devan Sabaratnam (https://devan.codes/blog/2020/9/14/setting-up-our-helpscout-branding) */
-
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,400i,500,700');
+/* */
 /* */
 body {
     background: #fbfbfc;
+}
+
+/* Category Styles */
+
+.category-list .category p {
+    color: #7e8287;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 0.25px;
+}
+.category-list .category {
+    background-color: #fff;
+    background-position: top 20px center !important;
+    background-repeat: no-repeat !important;
+    background-size: 100px auto !important;
+    box-shadow: 0 7px 4px -5px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    min-height: 183px;
+    padding: 120px 20px 15px;
+    position: relative;
+    width: 31.5%;
+    transition: all 0.2s;
+}
+.category-list .category:hover {
+    text-decoration: none;
+    background: #f7f7f9;
 }
 
 /* Category Images */
