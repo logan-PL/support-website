@@ -30,7 +30,9 @@ body {
 }
 .category-list .category:hover {
     text-decoration: none;
-    background: #f7f7f9;
+    background: #fff;
+    box-shadow: 0 7px 4px -5px rgba(0, 0, 0, 0.5);
+
 }
 
 /* Category Images */
@@ -51,21 +53,45 @@ body {
     background-image: url(https://raw.githubusercontent.com/logan-PL/support-website/main/img/admin.png);
 }
 
-#category-014 {
-    background-image: url(https://raw.githubusercontent.com/logan-PL/support-website/main/img/admin.png);
+/* User Mgmt*/
+#category-5 {
+    background-image: url(https://raw.githubusercontent.com/logan-PL/support-website/main/img/user_management.png);
 }
 
-/* Setup Users */
-#category-456 {
-  background-image: url(https://storage.myhostingprovider.com/public/images/456-setup-users.png);
+/* Coms*/
+#category-15 {
+    background-image: url(https://raw.githubusercontent.com/logan-PL/support-website/main/img/communications.png);
 }
 
-/* Uploading Files */
-#category-223 {
-  background-image: url(https://storage.myhostingprovider.com/public/images/223-uploading-files.png);
+/* imports*/
+#category-12 {
+    background-image: url(https://raw.githubusercontent.com/logan-PL/support-website/main/img/imports.png);
 }
 
-/* etc... keep going and add one CSS ID selector for each category. */
+/* Leadership Access*/
+#category-14 {
+    background-image: url(https://raw.githubusercontent.com/logan-PL/support-website/main/img/leadership.png);
+}
+
+/* Reviews*/
+#category-18 {
+    background-image: url(https://raw.githubusercontent.com/logan-PL/support-website/main/img/people_reviews.png);
+}
+
+/* Reporting*/
+#category-11 {
+    background-image: url(https://raw.githubusercontent.com/logan-PL/support-website/main/img/reporting.png);
+}
+
+/* Settings*/
+#category-13 {
+    background-image: url(https://raw.githubusercontent.com/logan-PL/support-website/main/img/system_settings.png);
+}
+
+/* Tutorials*/
+#category-26 {
+    background-image: url(https://raw.githubusercontent.com/logan-PL/support-website/main/img/tutorials.png);
+}
 
 
 
